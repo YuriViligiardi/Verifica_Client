@@ -13,6 +13,38 @@ public class Main {
         Socket s = new Socket("localhost", port);
         System.out.println("Client connesso al server");
         Menu m = new Menu();
+
+        // boolean c = false;
+        // do {
+        //     System.out.println("Inserisci un username identificativo per il tuo Client:");
+        //     String username = m.ottieniStringa();
+
+        //     try {
+        //         BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream()));
+        //         DataOutputStream out = new DataOutputStream(s.getOutputStream());
+
+        //         out.writeBytes("u" + "\n");
+        //         String firstString = in.readLine();
+        //         System.out.println();
+
+        //         out.writeBytes(username + "\n");
+        //         System.out.println("Client invia: " + username);
+        //         String control = in.readLine();
+        //         if (control.equals("true")) {
+        //             c = true;
+        //         } else {
+        //             c = false;
+        //         }
+                
+        //         System.out.println("Disponibilita username: " + true);
+        //     } catch (Exception e) {
+        //         System.out.println("Errore UserName");
+        //     }
+        // } while (c != true);
+        
+
+        //System.out.println("----------------------------------------");
+        
         int scelta;
 
         do {
